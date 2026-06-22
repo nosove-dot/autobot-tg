@@ -4,7 +4,7 @@ import time
 
 TOKEN = os.environ["BOT_TOKEN"]
 API = f"https://api.telegram.org/bot{TOKEN}"
-REPLY = "Привет! Я сейчас в больнице, отвечу примерно через пару недель. Спасибо за понимание 🙏"
+REPLY = "Привет! Это тестовое сообщение, если оно тебе пришло не обращай внимание"
 
 offset = None
 print("Автоответчик запущен.")

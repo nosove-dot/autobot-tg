@@ -3,7 +3,7 @@ import requests
 import time
 
 TOKEN = os.environ["BOT_TOKEN"]
-API = f"https://api.telegram.org/bot{TOKEN}".
+API = f"https://api.telegram.org/bot{TOKEN}"
 REPLY = "Привет! Я сейчас в больнице. Со мной все хорошо, но у меня нет телефона. Отвечу тебе ближе к 10-м числам июля. Если это более срочно, пиши Рите @rito4kach, она мне по возможности все передаст. До связи!"
 
 offset = None
